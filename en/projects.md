@@ -5,90 +5,99 @@ permalink: /en/projects/
 author_profile: false
 ---
 
-## 🎯 Featured Projects
+A selection of project cases. Two categories: **AI / technical hands-on** (open source on GitHub), and **automotive connectivity PM experience** (company projects on million-vehicle platforms).
 
-### Cariad (VW Group) · Data Collection Product
-**2023.07 – Present · Million-Vehicle Platform**
+## 🤖 AI / Technical Hands-on Projects
 
-End-to-end ownership of vehicle-side data collection product. Designed the metrics taxonomy, collection frequency, data quality monitoring, and PIPL-compliant data flow.
+### [Xuanjing (玄靖)](https://github.com/jerryxrock-droid/Xuanjing)
+**RAG / AI Agent hands-on · 2026**
 
-- **Outcome**: Defined the "data usability score" loop from analytics team back to product spec. Crossed vehicle/cloud/privacy/legal silos.
-- **Stack thinking**: PM-side is a "data marketplace" problem — what's collected, how it's labeled, who consumes it, what's the SLA.
-- **For AI PM**: Mirrors the "data flywheel" problem in AI products (collect → label → train → eval → feedback).
-
-### Ford China · In-Car Voice Product (SYNC+)
-**2021.09 – 2023.07**
-
-Owned Ford China's voice product UX. Defined voice intent taxonomy (navigation / media / vehicle control), worked with Tencent and Baidu voice engines.
-
-- **Outcome**: Shipped voice control for 12+ in-car intents across 3 vehicle models.
-- **For AI PM**: Voice intent classification is a classic NLU problem. The UX principles translate directly to LLM chat UX.
-
-### SAIC VW · Remote Vehicle Control
-**2018.01 – 2021.09**
-
-Remote vehicle control features (lock/unlock, AC pre-cool, find my car) for SAIC VW's connected car app. Worked with Bosch and Huawei car BU.
-
-- **Outcome**: Defined the mobile command protocol and security model. Shipped to 8 SAIC VW models.
-- **For AI PM**: API design for mobile-command systems is the same discipline as designing AI tool-use APIs.
+Hands-on project in RAG / agent direction.
+- **GitHub**: [jerryxrock-droid/Xuanjing](https://github.com/jerryxrock-droid/Xuanjing)
+- **My role**: Product + hands-on
 
 ---
 
-## 🛠 Side Projects (iOS Development)
+### [FitEat — Ingredient Calorie Lookup & Smart Recommendation App](https://github.com/jerryxrock-droid/FitEat_J)
+**Mobile App · 2025**
 
-I build iOS apps to **understand technology teams' thinking** — not to become an indie developer. The goal is to bridge PM and engineering in my next AI PM role.
-
-### ZhiTong (职通) — AI-Powered Job Search App
-**2025 · 5-tab SwiftUI app · SQLite**
-
-Job matching app with weighted skill scoring (0-100 match score, 3 tiers: qualified / reachable / long-term). Includes dynamic lesson cards (3-card structure: concept / standard / test) per skill.
-
-- **Architecture**: MVVM with `DataStore` (singleton) as the business core, `@StateObject` for state injection.
-- **Persistence**: SQLite (jobs/assessments/learning plans) + UserDefaults (learning progress).
-- **Source**: [github.com/jerryxrock-droid/ZhiTong](https://github.com/jerryxrock-droid/ZhiTong)
-
-### Xuanjing (玄镜) — Deterministic Zodiac/MBTI/Tarot App
-**2024 · 32 SwiftUI files · MVVM · UserDefaults**
-
-Combines zodiac + MBTI + tarot into a daily self-exploration app. Uses a **deterministic seed algorithm** (LCG + `&*`/`&+` for overflow safety) so the same user sees the same cards all day.
-
-- **Why deterministic**: Random card draw makes users think "this app is inaccurate". Deterministic = "this app is consistent". UX choice.
-- **Source**: [github.com/jerryxrock-droid/Xuanjing](https://github.com/jerryxrock-droid/Xuanjing)
-
-### Still — Sleep / Breathing Audio App
-**2024 · SwiftUI + SwiftData · 20 files**
-
-Sleep + breathing audio app. 4-stage breathing rhythm (4-4-6-2 pattern), 5 ambient sound types (Brown / White / Rain / Ocean / Forest) generated in real-time via `NoiseGenerator`.
-
-- **Architecture**: `LFOModulator` for LFO-based audio modulation, `SleepTracker` for accelerometer-based sleep estimation.
-- **Storage**: SwiftData with `Thought` / `SleepSession` / `SleepReport` schema (3 entities, cascade delete).
-
-### ShiMo (拾墨) — Classical Poetry SRS App
-**2024 · CoreData + SQLite FTS5 · 43 files**
-
-Classical poetry learning app with FSRS-style spaced repetition (mastered=7d / notFamiliar=3d / notMastered=1d intervals) and SQLite FTS5 full-text search across 300+ poems.
-
-- **Tech**: `FTSDatabase` for FTS5 (poemId / title / author / dynasty / fullText / category schema), `ExerciseEngine` for fill-in-the-blank exercise (3 difficulty levels: 20%/35%/55% blank ratio).
-
-### More Projects
-
-- **MemoMiniApp** — Multi-modal memo with voice-to-text, translation (mock), Face ID
-- **StarGravity** — Astrology app (CoreData — currently has a P0 data-loss issue)
-- **FitEat** — Fridge-based recipe recommendation (SQLite + howtocook dataset)
-- **FitRock** — Fitness tracker (MVVM + HealthKit + 4 haptic types)
-- **GuitarBook** — Chord library + song editor (UserDefaults + CoreData scaffold)
-
-📂 **All 10 iOS projects analyzed**: see [code atlas PDF](https://github.com/jerryxrock-droid/jerryxrock-droid.github.io/raw/main/assets/iOS-项目代码图谱-2026-06-17.pdf) (84 pages, 9.8MB, 46 mermaid diagrams).
+Ingredient calorie lookup and smart recommendation app. Recommends cookable dishes from fridge ingredients, with fuzzy search, calorie calculation, and cuisine classification.
+- **GitHub**: [jerryxrock-droid/FitEat_J](https://github.com/jerryxrock-droid/FitEat_J)
+- **My role**: Product + development
 
 ---
 
-## 📝 Writing
+### [Daily Stock Analysis](https://github.com/jerryxrock-droid/daily_stock_analysis)
+**LLM-driven A/H/US Stock Intelligent Analyzer**
 
-- [Why I'm Pivoting to AI PM (2026 H1)]({{ '/en/blog/why-ai-pm-pivot/' | relative_url }}) — 5400 words, the full story
+LLM-powered stock analysis system for A/H/US markets.
+Multi-source quotes + real-time news + LLM decision dashboard + multi-channel push, runs on schedule at zero cost.
+- **GitHub**: [jerryxrock-droid/daily_stock_analysis](https://github.com/jerryxrock-droid/daily_stock_analysis)
+- **My role**: Product + hands-on
 
 ---
 
-<!-- Language switcher -->
+## 🚗 Automotive Connectivity PM Experience
+
+### Cariad · Data Collection Product Manager / Data Collection FO
+**2023.07 – Present · Shanghai**
+
+[Detailed project →](/projects/cariad-data-collection/)
+
+End-to-end owner of vehicle-side data collection product (vehicle status / driving behavior / DTCs etc.) on **million-vehicle platforms**.
+
+**Key capability demonstrated:**
+- Cross-functional coordination across OEM / Tier-1 / engineering / data compliance / after-sales teams
+- **LLM-based auto insurance solution optimization** (most AI-heavy project during Cariad phase)
+- Data compliance, cross-border data transfer, user privacy protection
+
+---
+
+### Ford (China) · VPA Voice Product Manager
+**2021.09 – 2023.07 · Shanghai**
+
+VPA voice assistant feature PM. Coordinated with HMI and internal engineering teams.
+
+**Key capability demonstrated:**
+- **Agile pilot project**: transformation practice from traditional waterfall to agile
+- Drove voice assistant integration with the recommendation engine, enabling rapid software iteration
+- User feedback collection and mini-program product development
+
+---
+
+### Vehicle Control Feature PM · MQB / MEB Platform
+**2018.01 – 2021.09 · Shanghai** <!-- TODO: Awaiting Jerry's input on the specific company name -->
+
+Vehicle control core features FO on MQB / MEB platforms: remote vehicle control, status query, real-time data monitoring, personalization.
+
+**Key capability demonstrated:**
+- **Localized in-house R&D**: car finder, geofencing, overspeed alert, trip statistics
+- **eCall / bCall emergency rescue service** integration verification
+- Led alignment with **AEBS / CNCAP / CCRT** regulatory standards
+- Real-vehicle crash testing + standards review
+
+---
+
+### PATAC (泛亚汽车技术中心) · Communication Network Engineer
+**2014.08 – 2016.11 · Shanghai**
+
+> First entry into the industry, starting from the bottom layer of in-vehicle network communication.
+
+**Key capability demonstrated:**
+- Built the **CAN database** from 0 to 1
+- Bus load evaluation strategy + in-vehicle network topology optimization
+- Network management (local wakeup), diagnostic maintenance, low-level network security
+
+---
+
+## 💼 Job Search Status
+
+> **Currently seeking AI PM roles**: target T2.5 OEM AI divisions + T1 tech AI products.
+> Focus areas: smart cockpit + AI, RAG / Agent, data + AI.
+> [Contact](/contact/)
+
+---
+
 <div style="text-align: center; margin-top: 3rem; padding: 1rem; border-top: 1px solid #333;">
   <a href="/projects/" style="color: #D4A843; text-decoration: none;">← 中文版</a>
 </div>

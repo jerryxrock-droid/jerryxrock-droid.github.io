@@ -14,40 +14,53 @@ author_profile: true
 
 ## Why Me
 
-10+ years across the **automotive connectivity stack** — car software/connectivity → remote vehicle control → in-car voice → cloud-side data collection. Full product lifecycle.
+I have 10+ years across the **automotive connectivity stack** — from car software / connectivity → remote vehicle control → in-car voice → cloud-side data collection. Full product lifecycle ownership.
 
-Worked at **PATAC (泛亚), SAIC VW, Ford (China), Cariad (VW Group)**. Owned product delivery for **million-vehicle platforms** in vehicle control, voice, and data collection domains. End-to-end capability: requirements analysis, feature definition, cross-team coordination, acceptance testing. Familiar with vehicle-grade regulations and data compliance.
+I have worked at **PATAC (泛亚), SAIC VW, Ford (China), Cariad (VW Group)** and other mainstream OEMs and tech companies, leading product delivery of vehicle control, voice, and data collection on **million-vehicle platforms**. End-to-end capability: requirements analysis, feature definition, cross-team coordination, acceptance testing. Familiar with vehicle-grade regulatory standards and data compliance.
 
-**2026 H1 — I started the AI pivot.** My strategy: don't abandon 10 years of PM experience to learn AI from scratch. Stack **car + data + FO** — the three scarce dimensions — onto AI. Become the "AI PM who understands cars" that the market lacks.
+**2026 H1 I started the AI pivot.** My strategy: **don't abandon 10 years of PM experience to learn AI from scratch — instead stack car + data + FO (the three scarce dimensions) onto AI, and become the "AI PM who understands cars" — the rarest profile in the market**.
 
 ---
 
 ## Timeline
 
-### 🚗 Cariad (VW Group) · Data Collection Product Manager / FO
+### 🚗 Cariad (VW Group) · Data Collection Product Manager / Data Collection FO
 **2023.07 – Present · Shanghai**
 
-End-to-end ownership of vehicle-side data collection products (vehicle status, driving behavior, DTCs) — from requirements analysis to feature delivery. Covers **million-vehicle platforms**.
+End-to-end ownership of vehicle-side data collection products (vehicle status / driving behavior / DTCs etc.) on **million-vehicle platforms**.
 
 Key outcomes:
-- Defined collection metrics and data quality standards; aligned cross-domain (车端 / 云端 / 隐私 / 法务) requirements.
-- Built the "data usability" feedback loop from analytics back to product specs.
-- Navigated China's data-cross-border privacy regulations (数据跨境) and PIPL compliance.
+- Coordinated across vehicle-side / cloud-side / privacy / legal teams
+- **LLM-based auto insurance solution optimization** (most AI-heavy project during Cariad phase)
+- Data compliance, cross-border data transfer, user privacy protection
 
-### 🚙 Ford China · Voice Product Manager
+### 🎙️ Ford (China) · Voice Product Manager / VPA Feature PM
 **2021.09 – 2023.07 · Shanghai**
 
-Owned Ford China's in-car voice product (SYNC+). Defined voice UX across navigation, media, and vehicle control intents. Worked with Tencent and Baidu voice teams.
+Responsible for VPA voice assistant feature development. Coordinated with HMI and internal engineering teams on requirements, managed project budget, and organized technical documentation.
 
-### 🚗 SAIC VW · Vehicle Control Feature Owner
+### 🚗 SAIC VW · Vehicle Control Feature PM · MQB / MEB Platform
 **2018.01 – 2021.09 · Shanghai**
 
-Owned remote vehicle control features (远程车控) for SAIC VW's connected car app. Cross-OEM coordination with Tier-1 suppliers (博世 / 华为车 BU). Led UDS diagnostic + mobile command protocol design.
+<!-- TODO: Specific company name to be confirmed by Jerry -->
 
-### 🏢 PATAC (泛亚汽车技术中心) · Connected Car PM
+Vehicle control core features FO on MQB / MEB platforms: remote vehicle control, status query, real-time data monitoring, personalization.
+
+Key outcomes:
+- **Localized in-house R&D**: car finder, geofencing, overspeed alert, trip statistics
+- **eCall / bCall emergency rescue service** integration verification
+- Led alignment with **AEBS / CNCAP / CCRT** regulatory standards
+- Real-vehicle crash testing + standards review
+
+### 🏢 PATAC (泛亚汽车技术中心) · Communication Network Engineer
 **2014.08 – 2016.11 · Shanghai**
 
-Entry into the automotive connectivity space. Own car software feature definition, working with engineering teams to ship OnStar-like telematics services for GM joint-venture brands.
+> First entry into the industry, starting from the bottom layer of in-vehicle network communication.
+
+Key outcomes:
+- Built the **CAN database** from 0 to 1
+- Bus load evaluation strategy + in-vehicle network topology optimization
+- Network management (local wakeup), diagnostic maintenance, low-level network security
 
 ---
 
@@ -55,10 +68,12 @@ Entry into the automotive connectivity space. Own car software feature definitio
 
 |  | Skill | Source |
 |---|-------|--------|
-| 🟢 **Product** | Requirements analysis, PRD, cross-team coordination, acceptance | 10 years automotive PM |
-| 🟡 **Data** | Collection metrics design, data quality, KPI dashboards | Cariad data collection FO |
-| 🔵 **Tech** | System architecture literacy, UDS / CAN / OTA, API design, Swift | T-shaped learning, self-driven iOS dev |
-| 🔴 **AI (learning)** | RAG, Agent, LLM evaluation, prompt engineering | 2026 H1 pivot, in progress |
+| 🟢 **Car** | 10+ years connected car / vehicle control / voice / data collection | Full chain: PATAC → Vehicle Control FO → Ford VPA → Cariad |
+| 🟡 **Data** | Data collection FO, instrumentation / metrics / data-driven iteration | Cariad data collection project (million-vehicle platform) |
+| 🔵 **AI (in progress)** | Hands-on RAG / agent projects | [Xuanjing / 玄靖](https://github.com/jerryxrock-droid/Xuanjing) open-source project |
+| 🔴 **FO** | Cross OEM / Tier-1 / engineering / data compliance | Ship experience in complex OEM organizations |
+| 🟣 **Regulations** | AEBS / CNCAP / CCRT vehicle-grade standards | Led regulatory alignment during vehicle control FO phase |
+| ⚫ **Languages** | PMP · CET-6 · JLPT-N2 | Cross-language working ability |
 
 ---
 
@@ -74,3 +89,9 @@ Entry into the automotive connectivity space. Own car software feature definitio
 ## Education
 
 **Shanghai University** · Communication Engineering · 2010 – 2014
+
+---
+
+<div style="text-align: center; margin-top: 3rem; padding: 1rem; border-top: 1px solid #333;">
+  <a href="/about/" style="color: #D4A843; text-decoration: none;">← 中文版</a>
+</div>
