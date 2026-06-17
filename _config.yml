@@ -15,7 +15,7 @@ baseurl: ""
 repository: jerryxrock-droid/jerryxrock-droid.github.io
 
 # Theme (remote_theme because GitHub Pages 移除内置主题后)
-remote_theme: mmistakes/minimal-mistakes@4.24.3
+remote_theme: mmistakes/minimal-mistakes@4.28.0
 minimal_mistakes_skin: dark
 
 # Author
