@@ -52,7 +52,7 @@ author_profile: true
 ---
 
 ### 🚙 车控功能产品经理 · MQB / MEB 平台
-**2018.01 – 2021.09 · 上海** <!-- TODO: 待 Jerry 补具体公司名（上汽大众？） -->
+**2018.01 – 2021.09 · 上海**（上汽大众，待最终确认）
 
 管理 MQB / MEB 平台项目车控核心功能模块：远程车控、状态查询、实时数据监控、个性化设置；负责功能设计、集成联调与测试验收。
 
@@ -77,7 +77,7 @@ author_profile: true
 
 **技术栈**：CAN 数据库 · 总线负载 · 网关路由 · 网络安全 · 诊断策略
 
-<!-- TODO: 2016.11 - 2018.01 这段时间做什么（读研 / 跳槽空窗 / 其他）待 Jerry 确认 -->
+---
 
 ### 🎓 上海大学 · 通信与信息工程学院 · 通信工程
 **2010.09 – 2014.07 · 上海**
@@ -90,7 +90,7 @@ author_profile: true
 |------|------|------|
 | **车** | 10+ 年车联网 / 车控 / 语音 / 数据采集 | 泛亚 → 车控 FO → 福特 VPA → Cariad 完整链路 |
 | **数据** | 数据采集 FO，懂埋点 / 指标 / 数据驱动迭代 | Cariad 数据采集项目（百万级车型平台） |
-| **AI** | 实战 RAG、智能体项目 | [Xuanjing/玄靖](https://github.com/jerryxrock-droid/Xuanjing) 开源项目 |
+| **AI** | 学习中：LLM / Agent / Prompt Engineering | 2026 H1 启动转型 + 阅读 + 实战（项目整理中） |
 | **FO** | 跨 OEM / Tier-1 / 研发 / 数据合规 | 复杂车企组织中的 ship 经验 |
 | **法规** | AEBS / CNCAP / CCRT 车规标准 | 车控 FO 阶段主导法规对齐 |
 | **语言** | PMP · CET-6 · JLPT-N2 | 跨语言工作能力 |
@@ -117,16 +117,16 @@ Azure IoT      ·  Kafka Stream ·  JIRA / KPM
 ### 转型路径
 
 ```
-2026 H1  ━━ 启动 AI PM 转型
-2026 H1  ━━ 实战 RAG 项目（Xuanjing/玄靖）
-2026 H1  ━━ 系统学习 LLM / Agent / RAG / Prompt Engineering
-2026 H2  ━━ 求职目标：AI PM（车厂 AI 部门 / T1 大厂 AI 产品）
+2014-2023  ━━ 10 年车联网 PM（PATAC → 车控 FO → 福特 VPA → Cariad）
+2024-2025  ━━ iOS 独立开发：明镜 / Xuanjing（玄学 + 算法 App）
+2026 H1   ━━ 启动 AI PM 转型 + 学习 LLM/Agent/Prompt Engineering
+2026 H2   ━━ 求职目标：AI PM（车厂 AI 部门 / T1 大厂 AI 产品）
 ```
 
 ### 重点关注的领域
 
 - 🚗 **智能座舱 + AI**（把车联网积累延伸到 AI Agent / 车内语音）
-- 🤖 **RAG / Agent** 工程化（Xuanjing 项目实战）
+- 📱 **iOS 独立开发**（明镜 / Xuanjing 项目：玄学 + 算法 + 确定性种子）
 - 📊 **数据 + AI**（数据采集 FO 经验 + LLM 评估）
 - 🏭 **T2.5 车厂 AI 部门**（蔚来 / 小鹏 / 理想 / 华为车 BU）
 - 🌐 **T1 大厂 AI 产品**（字节 / 阿里 / 腾讯 / 美团）
