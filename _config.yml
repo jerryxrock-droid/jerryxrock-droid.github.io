@@ -14,8 +14,8 @@ url: https://jerryxrock-droid.github.io
 baseurl: ""
 repository: jerryxrock-droid/jerryxrock-droid.github.io
 
-# Theme (Jekyll 4 via GitHub Actions)
-theme: minimal-mistakes
+# Theme (gem name must match .gemspec spec.name)
+theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: dark
 
 # Author
