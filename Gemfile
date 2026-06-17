@@ -1,7 +1,14 @@
 source "https://rubygems.org"
 
-# GitHub Pages 官方 gem 集合
-gem "github-pages", group: :jekyll_plugins
+# Jekyll 4（用 GitHub Actions build，自由版本）
+gem "jekyll", "~> 4.3"
 
-# remote_theme 必需
-gem "jekyll-remote-theme"
+# Minimal Mistakes 主题
+gem "minimal-mistakes-jekyll"
+
+# 插件
+group :jekyll_plugins do
+  gem "jekyll-seo-tag"
+  gem "jekyll-sitemap"
+  gem "jekyll-feed"
+end
