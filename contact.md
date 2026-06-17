@@ -5,11 +5,19 @@ permalink: /contact/
 author_profile: false
 ---
 
+## 👤 个人信息
+
+- **姓名**：谢捷 · Jie Xie
+- **微信昵称**：谢耳朵
+- **手机**：13817530700 <!-- TODO: 求职简历是否公开手机，确认 -->
+
+---
+
 ## 📬 联系方式
 
 | 渠道 | 链接 | 备注 |
 |------|------|------|
-| **邮箱** | [jerryxrock@gmail.com](mailto:jerryxrock@gmail.com) | ✅ 推荐，求职首选 |
+| **邮箱** | [403197815@qq.com](mailto:403197815@qq.com) | ✅ 推荐，求职首选 |
 | **微信** | <!-- TODO: 待 Jerry 提供二维码图片 --> | 微信二维码待上传 |
 | **LinkedIn** | <!-- TODO: 待 Jerry 提供 LinkedIn URL --> | URL 待补 |
 | **GitHub** | [github.com/jerryxrock-droid](https://github.com/jerryxrock-droid) | ✅ 在线，3 个公开项目 |
@@ -25,6 +33,13 @@ author_profile: false
 | **工作地点** | 上海 / 杭州 / 北京 / 远程（open） |
 | **期望到岗** | 灵活，可面议 |
 | **薪资范围** | <!-- TODO: 待 Jerry 定 --> |
+
+---
+
+## 💼 我的核心能力（一句话版）
+
+> **10+ 年汽车智能网联 PM，懂车 + 懂数据 + 懂 AI + 跨部门 FO。**
+> 百万级车型平台产品 owner 经验，PMP / CET-6 / JLPT-N2 持证。
 
 ---
 
