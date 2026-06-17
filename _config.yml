@@ -36,8 +36,9 @@ author:
       url: "https://github.com/jerryxrock-droid"
 
 # Locale
-locale: "en-US"
-lang: en
+# Default: Chinese (zh-CN). English version at /en/ subdirectory.
+locale: "zh-CN"
+lang: zh-CN
 
 # Plugins
 plugins:

@@ -147,3 +147,9 @@ Azure IoT      ·  Kafka Stream ·  JIRA / KPM
 
 微信昵称"谢耳朵"（来自《生活大爆炸》Sheldon），**真实英文名 Jie Xie**（简历用名）。  
 **沟通风格直接、效率优先、不喜欢套话**——AI PM 求职也一样，看机会请直接联系。
+
+---
+
+<div style="text-align: center; margin-top: 3rem; padding: 1rem; border-top: 1px solid #333;">
+  <a href="/en/about/" style="color: #D4A843; text-decoration: none;">English Version →</a>
+</div>

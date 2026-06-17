@@ -8,19 +8,9 @@ author_profile: false
 ## 👤 个人信息
 
 - **姓名**：谢捷 · Jie Xie
-- **微信昵称**：谢耳朵
-- **手机**：13817530700 <!-- TODO: 求职简历是否公开手机，确认 -->
-
----
-
-## 📬 联系方式
-
-| 渠道 | 链接 | 备注 |
-|------|------|------|
-| **邮箱** | [403197815@qq.com](mailto:403197815@qq.com) | ✅ 推荐，求职首选 |
-| **微信** | ![WeChat QR](/assets/images/qrcode-wechat.png) | 扫一扫，搜 `13817530700` 添加 |
-| **GitHub** | [github.com/jerryxrock-droid](https://github.com/jerryxrock-droid) | ✅ 在线，3 个公开项目 |
-| **LinkedIn** | <!-- TODO: 待 Jerry 提供 LinkedIn URL --> | URL 待补 |
+- **邮箱**：403197815@qq.com
+- **GitHub**：[github.com/jerryxrock-droid](https://github.com/jerryxrock-droid)
+- **LinkedIn**：<!-- TODO: 待 Jerry 提供 LinkedIn URL -->
 
 ---
 
@@ -49,12 +39,10 @@ author_profile: false
 
 1. **第一封邮件**写清：你在哪家公司、什么岗位、为什么考虑我、面试流程
 2. **避免**："我们有一个很好的机会..."这种话术
-3. **微信沟通**适合快速对齐，**关键讨论请走邮件**（留痕）
+3. **关键讨论请走邮件**（留痕），不要纯 IM
 
 ---
 
-## 微信二维码
-
-> **永久有效二维码**：扫码显示 `13817530700`，可手动打开微信搜索添加。
->
-> 这张二维码**没有时效性**（无 token 机制），可以永久放在网站上。
+<div style="text-align: center; margin-top: 3rem; padding: 1rem; border-top: 1px solid #333;">
+  <a href="/en/contact/" style="color: #D4A843; text-decoration: none;">English Version →</a>
+</div>
