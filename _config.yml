@@ -1,0 +1,68 @@
+# =============================================================================
+# Jerry Xie · Personal Site
+# Stack: Jekyll + Minimal Mistakes (gem-based, hosted on GitHub Pages)
+# =============================================================================
+
+# Site Identity
+title: Jerry Xie
+title_separator: "—"
+subtitle: AI Product Manager · 10 Years in Automotive
+description: >
+  10-year automotive Product Manager (Cariad · SAIC VW · Ford China)
+  pivoting to AI. Unique edge: car + data + AI + cross-functional ownership.
+url: https://jerryxrock-droid.github.io
+baseurl: ""
+repository: jerryxrock-droid/jerryxrock-droid.github.io
+
+# Theme
+theme: minimal-mistakes
+minimal_mistakes_skin: dark
+
+# Author
+author:
+  name: Jerry Xie
+  bio: "AI Product Manager in training · 10yr automotive PM"
+  location: Shanghai, China
+  email: jerryxrock@gmail.com
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:jerryxrock@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jerryxie"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/jerryxrock-droid"
+
+# Locale
+locale: "en-US"
+lang: en
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: false
+
+# Markdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
