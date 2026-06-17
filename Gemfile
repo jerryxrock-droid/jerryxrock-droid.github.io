@@ -1,4 +1,7 @@
 source "https://rubygems.org"
 
-# GitHub Pages 官方 gem 集合（含 Jekyll + Minimal Mistakes 主题）
+# GitHub Pages 官方 gem 集合
 gem "github-pages", group: :jekyll_plugins
+
+# remote_theme 必需
+gem "jekyll-remote-theme"
