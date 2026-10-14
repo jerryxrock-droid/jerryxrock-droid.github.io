@@ -1,0 +1,897 @@
+{
+  "version": "2026-10-14.seed-2",
+  "dtcs": [
+    {
+      "code": "P0299",
+      "definition_zh": "增压调节未达到控制目标",
+      "limitations": [
+        "报码不等于部件损坏",
+        "候选类别不代表每款发动机均配备相应部件",
+        "不提供未核验阈值或换件指令"
+      ],
+      "source_ids": [
+        "RT_P0299"
+      ],
+      "definition_status": "source_checked",
+      "candidate_directions": [
+        "增压管路连接或泄漏",
+        "增压控制机构异常",
+        "涡轮机械异常",
+        "泄压阀异常"
+      ]
+    },
+    {
+      "code": "P0101",
+      "definition_zh": "空气流量传感器 G70 信号不可信",
+      "limitations": [
+        "报码不等于部件损坏",
+        "候选类别不代表每款发动机均配备相应部件",
+        "不提供未核验阈值或换件指令"
+      ],
+      "source_ids": [
+        "RT_P0101"
+      ],
+      "definition_status": "source_checked",
+      "candidate_directions": [
+        "流量测量或线路问题",
+        "流量计下游漏气",
+        "进排气阻塞"
+      ]
+    },
+    {
+      "code": "P0300",
+      "definition_zh": "检测到随机或多缸失火",
+      "limitations": [
+        "报码不等于部件损坏",
+        "候选类别不代表每款发动机均配备相应部件",
+        "不提供未核验阈值或换件指令"
+      ],
+      "source_ids": [
+        "RT_P0300",
+        "VW_2054615_1"
+      ],
+      "definition_status": "manufacturer_and_vendor_label_checked",
+      "candidate_directions": [
+        "进气泄漏",
+        "供油或喷油异常",
+        "点火异常",
+        "机械状态异常"
+      ]
+    },
+    {
+      "code": "P2279",
+      "definition_zh": "进气系统泄漏故障",
+      "limitations": [
+        "报码不等于部件损坏",
+        "候选类别不代表每款发动机均配备相应部件",
+        "不提供未核验阈值或换件指令"
+      ],
+      "source_ids": [
+        "RT_P2279"
+      ],
+      "definition_status": "source_checked",
+      "candidate_directions": [
+        "真空泄漏",
+        "进气歧管翻板位置异常",
+        "适用车辆的曲轴箱通风系统异常"
+      ]
+    },
+    {
+      "code": "P0301",
+      "definition_zh": "检测到第1缸失火",
+      "limitations": [
+        "报码不等于部件损坏",
+        "候选类别不代表每款发动机均配备相应部件",
+        "不提供未核验阈值或换件指令"
+      ],
+      "source_ids": [
+        "RT_P0301",
+        "VW_2054615_1"
+      ],
+      "definition_status": "manufacturer_and_vendor_label_checked",
+      "candidate_directions": [
+        "点火",
+        "供油或喷油",
+        "压缩与机械状态"
+      ]
+    },
+    {
+      "code": "P0302",
+      "definition_zh": "检测到第2缸失火",
+      "limitations": [
+        "报码不等于部件损坏",
+        "候选类别不代表每款发动机均配备相应部件",
+        "不提供未核验阈值或换件指令"
+      ],
+      "source_ids": [
+        "RT_P0302",
+        "VW_2054615_1"
+      ],
+      "definition_status": "manufacturer_and_vendor_label_checked",
+      "candidate_directions": [
+        "点火",
+        "供油或喷油",
+        "压缩与机械状态"
+      ]
+    },
+    {
+      "code": "P0303",
+      "definition_zh": "检测到第3缸失火",
+      "limitations": [
+        "报码不等于部件损坏",
+        "候选类别不代表每款发动机均配备相应部件",
+        "不提供未核验阈值或换件指令"
+      ],
+      "source_ids": [
+        "RT_P0303",
+        "VW_2054615_1"
+      ],
+      "definition_status": "manufacturer_and_vendor_label_checked",
+      "candidate_directions": [
+        "点火",
+        "供油或喷油",
+        "压缩与机械状态"
+      ]
+    },
+    {
+      "code": "P0304",
+      "definition_zh": "检测到第4缸失火",
+      "limitations": [
+        "报码不等于部件损坏",
+        "候选类别不代表每款发动机均配备相应部件",
+        "不提供未核验阈值或换件指令"
+      ],
+      "source_ids": [
+        "RT_P0304",
+        "VW_2054615_1"
+      ],
+      "definition_status": "manufacturer_and_vendor_label_checked",
+      "candidate_directions": [
+        "点火",
+        "供油或喷油",
+        "压缩与机械状态"
+      ]
+    },
+    {
+      "code": "P0171",
+      "definition_zh": "第1缸列燃油修正：系统过稀",
+      "limitations": [
+        "报码不等于部件损坏",
+        "候选类别不代表每款发动机均配备相应部件",
+        "不提供未核验阈值或换件指令",
+        "不能把第1缸列解释为第1缸；燃油修正没有适用参考条件不能自行定阈值"
+      ],
+      "source_ids": [
+        "RT_P0171"
+      ],
+      "definition_status": "source_checked",
+      "candidate_directions": [
+        "空气流量测量",
+        "进气泄漏",
+        "供油与喷油系统检查"
+      ]
+    },
+    {
+      "code": "P0172",
+      "definition_zh": "第1缸列系统过浓",
+      "limitations": [
+        "报码不等于部件损坏",
+        "候选类别不代表每款发动机均配备相应部件",
+        "不提供未核验阈值或换件指令",
+        "不能据此认定喷油器或高压泵损坏；相关软件通报需要独立适配核验"
+      ],
+      "source_ids": [
+        "RT_P0172",
+        "VW_2054615_1"
+      ],
+      "definition_status": "manufacturer_and_vendor_label_checked",
+      "candidate_directions": [
+        "燃油供给或喷油异常",
+        "蒸发排放相关因素",
+        "机械状态及测量影响"
+      ]
+    },
+    {
+      "code": "P0234",
+      "definition_zh": "增压调节超过限值（过增压）",
+      "limitations": [
+        "报码不等于部件损坏",
+        "候选类别不代表每款发动机均配备相应部件",
+        "不提供未核验阈值或换件指令",
+        "不要把来源列出的N75等配置假定为所有发动机均具备"
+      ],
+      "source_ids": [
+        "RT_P0234"
+      ],
+      "definition_status": "source_checked",
+      "candidate_directions": [
+        "增压管路问题",
+        "增压控制或压力测量异常",
+        "涡轮机构异常"
+      ]
+    },
+    {
+      "code": "P0507",
+      "definition_zh": "怠速控制转速高于预期",
+      "limitations": [
+        "报码不等于部件损坏",
+        "候选类别不代表每款发动机均配备相应部件",
+        "不提供未核验阈值或换件指令",
+        "不能仅以某个怠速转速判异常；BPY、CBTA/CBUA相关备注不得泛化"
+      ],
+      "source_ids": [
+        "RT_P0507"
+      ],
+      "definition_status": "source_checked",
+      "candidate_directions": [
+        "节气门及其线路连接",
+        "真空泄漏"
+      ]
+    },
+    {
+      "code": "P0087",
+      "definition_zh": "燃油轨/系统压力过低",
+      "limitations": [
+        "报码不等于部件损坏",
+        "候选类别不代表每款发动机均配备相应部件",
+        "不提供未核验阈值或换件指令",
+        "不等于高压泵必坏；汽油柴油及不同发动机诊断程序不得混用；不提供带压拆卸指令"
+      ],
+      "source_ids": [
+        "RT_P0087"
+      ],
+      "definition_status": "source_checked",
+      "candidate_directions": [
+        "燃油供给不足或压力损失",
+        "机械驱动相关问题"
+      ]
+    },
+    {
+      "code": "P0420",
+      "definition_zh": "第1缸列催化系统效率低于阈值",
+      "limitations": [
+        "报码不等于部件损坏",
+        "候选类别不代表每款发动机均配备相应部件",
+        "不提供未核验阈值或换件指令",
+        "不等于必须更换催化器；不以未审核的波形或温度阈值作结论"
+      ],
+      "source_ids": [
+        "RT_P0420"
+      ],
+      "definition_status": "source_checked",
+      "candidate_directions": [
+        "进排气泄漏",
+        "催化系统异常",
+        "氧传感器或其控制异常"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "RT_P0299",
+      "publisher": "Ross-Tech LLC",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16683/P0299/000665",
+      "locator": "标题、Possible Causes、Special Notes"
+    },
+    {
+      "id": "RT_P0101",
+      "publisher": "Ross-Tech LLC",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16485/P0101/000257",
+      "locator": "标题、Possible Causes、Special Notes"
+    },
+    {
+      "id": "RT_P0300",
+      "publisher": "Ross-Tech LLC",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16684/P0300/000768",
+      "locator": "标题、Possible Causes、Special Notes"
+    },
+    {
+      "id": "RT_P2279",
+      "publisher": "Ross-Tech LLC",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/18711/P2279/008825",
+      "locator": "标题、Possible Causes、Special Notes"
+    },
+    {
+      "id": "RT_P0301",
+      "publisher": "Ross-Tech LLC",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16685/P0301/000769",
+      "locator": "标题、Possible Causes、Special Notes"
+    },
+    {
+      "id": "RT_P0302",
+      "publisher": "Ross-Tech LLC",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16686/P0302/000770",
+      "locator": "标题、Possible Causes、Special Notes"
+    },
+    {
+      "id": "RT_P0303",
+      "publisher": "Ross-Tech LLC",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16687/P0303/000771",
+      "locator": "标题、Possible Causes、Special Notes"
+    },
+    {
+      "id": "RT_P0304",
+      "publisher": "Ross-Tech LLC",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16688/P0304/000772",
+      "locator": "标题、Possible Causes、Special Notes"
+    },
+    {
+      "id": "VW_MISFIRE_2033805_6",
+      "publisher": "Volkswagen Group of America",
+      "url": "https://static.nhtsa.gov/odi/tsbs/2022/MC-10214471-0001.pdf",
+      "locator": "PDF页码 1—3"
+    },
+    {
+      "id": "VW_BOOST_21_10_02",
+      "publisher": "Volkswagen Group of America",
+      "url": "https://static.nhtsa.gov/odi/tsbs/2015/MC-10122981-9999.pdf",
+      "locator": "PDF页码 1"
+    },
+    {
+      "id": "RT_P0171",
+      "publisher": "Ross-Tech LLC",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16555/P0171/000369",
+      "locator": "标题、Possible Causes/Solutions、Special Notes"
+    },
+    {
+      "id": "RT_P0172",
+      "publisher": "Ross-Tech LLC",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16556/P0172/000370",
+      "locator": "标题、Possible Causes/Solutions、Special Notes"
+    },
+    {
+      "id": "RT_P0234",
+      "publisher": "Ross-Tech LLC",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16618/P0234/000564",
+      "locator": "标题、Possible Causes/Solutions、Special Notes"
+    },
+    {
+      "id": "RT_P0507",
+      "publisher": "Ross-Tech LLC",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16891/P0507/001287",
+      "locator": "标题、Possible Causes/Solutions、Special Notes"
+    },
+    {
+      "id": "RT_P0087",
+      "publisher": "Ross-Tech LLC",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16471/P0087/000135",
+      "locator": "标题、Possible Causes/Solutions、Special Notes"
+    },
+    {
+      "id": "RT_P0420",
+      "publisher": "Ross-Tech LLC",
+      "url": "https://wiki.ross-tech.com/wiki/index.php/16804/P0420/001056",
+      "locator": "标题、Possible Causes/Solutions、Special Notes"
+    },
+    {
+      "id": "VW_2054615_1",
+      "publisher": "Volkswagen Group of America",
+      "url": "https://static.nhtsa.gov/odi/tsbs/2019/MC-10162819-0001.pdf",
+      "locator": "PDF第1页适配与报码；第6页软件适配表"
+    }
+  ],
+  "rules": [
+    {
+      "id": "G01",
+      "title": "车辆适配门禁",
+      "origin": "engineering_guardrail",
+      "applicability": "通用信息与证据整理，不是车型维修操作程序",
+      "condition": "程序声明的市场、年款、发动机、ECU条件均明确匹配",
+      "branches": {
+        "true": "允许展示该程序的审核摘要",
+        "false": "排除该程序，提示具体不匹配字段",
+        "unknown": "仅显示一般定义，补齐车辆与程序适配信息",
+        "conflict": "暂停程序匹配，核对车辆识别来源"
+      },
+      "source_ids": [],
+      "professional_review_status": "pending",
+      "enabled_for_production": false,
+      "root_cause_confirmation_allowed": false,
+      "decision_input_contract": {
+        "field": "G01_condition_assessment",
+        "accepted_values": [
+          true,
+          false,
+          "unknown",
+          "conflict"
+        ],
+        "missing_value_branch": "unknown",
+        "assessor": "工程门禁由确定性代码评估；技术检测条件由有来源的专业记录或审核人员评估",
+        "prohibited": "不得由模型仅按DTC猜测技术条件为true"
+      }
+    },
+    {
+      "id": "G02",
+      "title": "报码状态与工况",
+      "origin": "engineering_guardrail",
+      "applicability": "通用信息与证据整理，不是车型维修操作程序",
+      "condition": "原始报告包含工具状态、出现工况和冻结帧",
+      "branches": {
+        "true": "保存原始状态与工况，不跨协议强制转换",
+        "false": "标注缺失项并询问报码时间与症状",
+        "unknown": "请求原始导出，不能假定为当前持续故障",
+        "conflict": "并列保存报告，核对时间与控制器"
+      },
+      "source_ids": [],
+      "professional_review_status": "pending",
+      "enabled_for_production": false,
+      "root_cause_confirmation_allowed": false,
+      "decision_input_contract": {
+        "field": "G02_condition_assessment",
+        "accepted_values": [
+          true,
+          false,
+          "unknown",
+          "conflict"
+        ],
+        "missing_value_branch": "unknown",
+        "assessor": "工程门禁由确定性代码评估；技术检测条件由有来源的专业记录或审核人员评估",
+        "prohibited": "不得由模型仅按DTC猜测技术条件为true"
+      }
+    },
+    {
+      "id": "G03",
+      "title": "测量比较准入",
+      "origin": "engineering_guardrail",
+      "applicability": "通用信息与证据整理，不是车型维修操作程序",
+      "condition": "实际值、适配参考值、单位、压力基准、工况齐全且一致",
+      "branches": {
+        "true": "由确定性程序按已审核比较条件计算；只判测量关系",
+        "false": "说明不可比原因，不判正常或异常",
+        "unknown": "请求缺失条件；不创造参考值",
+        "conflict": "保留冲突参考来源，等待复核"
+      },
+      "source_ids": [],
+      "professional_review_status": "pending",
+      "enabled_for_production": false,
+      "root_cause_confirmation_allowed": false,
+      "decision_input_contract": {
+        "field": "G03_condition_assessment",
+        "accepted_values": [
+          true,
+          false,
+          "unknown",
+          "conflict"
+        ],
+        "missing_value_branch": "unknown",
+        "assessor": "工程门禁由确定性代码评估；技术检测条件由有来源的专业记录或审核人员评估",
+        "prohibited": "不得由模型仅按DTC猜测技术条件为true"
+      }
+    },
+    {
+      "id": "D01",
+      "title": "P0299候选路径",
+      "origin": "source_informed_authored_logic",
+      "applicability": "通用信息与证据整理，不是车型维修操作程序",
+      "condition": "专业人员按适配程序已发现增压路径泄漏，且有记录",
+      "branches": {
+        "true": "增压路径泄漏获得支持；对报码因果仍待复核",
+        "false": "本次未检出不能排除全部泄漏或间歇故障，转核对控制与机械检测资料",
+        "unknown": "先收集车型适配和专业检查记录",
+        "conflict": "保持未解决，核对检测工况与结果"
+      },
+      "source_ids": [
+        "RT_P0299"
+      ],
+      "professional_review_status": "pending",
+      "enabled_for_production": false,
+      "root_cause_confirmation_allowed": false,
+      "decision_input_contract": {
+        "field": "D01_condition_assessment",
+        "accepted_values": [
+          true,
+          false,
+          "unknown",
+          "conflict"
+        ],
+        "missing_value_branch": "unknown",
+        "assessor": "工程门禁由确定性代码评估；技术检测条件由有来源的专业记录或审核人员评估",
+        "prohibited": "不得由模型仅按DTC猜测技术条件为true"
+      }
+    },
+    {
+      "id": "D02",
+      "title": "P2279候选路径",
+      "origin": "source_informed_authored_logic",
+      "applicability": "通用信息与证据整理，不是车型维修操作程序",
+      "condition": "专业人员按适配程序记录了进气或真空泄漏",
+      "branches": {
+        "true": "泄漏假设获得支持，记录具体位置",
+        "false": "继续核对适用部件与检测记录，不认定PCV损坏",
+        "unknown": "先核对进气、曲轴箱通风系统配置和已有检查",
+        "conflict": "对照两次工况与方法，不覆盖结果"
+      },
+      "source_ids": [
+        "RT_P2279"
+      ],
+      "professional_review_status": "pending",
+      "enabled_for_production": false,
+      "root_cause_confirmation_allowed": false,
+      "decision_input_contract": {
+        "field": "D02_condition_assessment",
+        "accepted_values": [
+          true,
+          false,
+          "unknown",
+          "conflict"
+        ],
+        "missing_value_branch": "unknown",
+        "assessor": "工程门禁由确定性代码评估；技术检测条件由有来源的专业记录或审核人员评估",
+        "prohibited": "不得由模型仅按DTC猜测技术条件为true"
+      }
+    },
+    {
+      "id": "D03",
+      "title": "P0101信号可信度",
+      "origin": "source_informed_authored_logic",
+      "applicability": "通用信息与证据整理，不是车型维修操作程序",
+      "condition": "已有专业记录明确指出流量计线路或连接异常",
+      "branches": {
+        "true": "支持该异常路径，尚未确认其为全部症状根因",
+        "false": "继续核对进气路径、阻塞与测量可信度资料，不判流量计必坏",
+        "unknown": "收集线路检查和车型适配记录",
+        "conflict": "核对线路检测方法及时间"
+      },
+      "source_ids": [
+        "RT_P0101"
+      ],
+      "professional_review_status": "pending",
+      "enabled_for_production": false,
+      "root_cause_confirmation_allowed": false,
+      "decision_input_contract": {
+        "field": "D03_condition_assessment",
+        "accepted_values": [
+          true,
+          false,
+          "unknown",
+          "conflict"
+        ],
+        "missing_value_branch": "unknown",
+        "assessor": "工程门禁由确定性代码评估；技术检测条件由有来源的专业记录或审核人员评估",
+        "prohibited": "不得由模型仅按DTC猜测技术条件为true"
+      }
+    },
+    {
+      "id": "D04",
+      "title": "单缸失火检测结果迁移",
+      "origin": "manufacturer_informed_authored_logic",
+      "applicability": "只解释专业检测记录；通报北美适配，中国车型待确认；不指导拆装、路试或换件",
+      "condition": "专业检测已满足适配程序前提且失火随单一被测部件迁移",
+      "branches": {
+        "true": "该部件假设获得支持，交专业人员复核及修后验证",
+        "false": "仅本次迁移未成立；继续由专业人员区分喷油与机械问题",
+        "unknown": "收集原缸号、目标缸号、单一被测部件、工况与复测记录",
+        "conflict": "不能解释为迁移，复核多个同时变化的因素"
+      },
+      "source_ids": [
+        "VW_MISFIRE_2033805_6"
+      ],
+      "professional_review_status": "pending",
+      "enabled_for_production": false,
+      "root_cause_confirmation_allowed": false,
+      "decision_input_contract": {
+        "field": "D04_condition_assessment",
+        "accepted_values": [
+          true,
+          false,
+          "unknown",
+          "conflict"
+        ],
+        "missing_value_branch": "unknown",
+        "assessor": "工程门禁由确定性代码评估；技术检测条件由有来源的专业记录或审核人员评估",
+        "prohibited": "不得由模型仅按DTC猜测技术条件为true"
+      }
+    },
+    {
+      "id": "D05",
+      "title": "多码关联",
+      "origin": "source_informed_authored_logic",
+      "applicability": "通用信息与证据整理，不是车型维修操作程序",
+      "condition": "P0299与P2279或失火码在同一工况有相互关联的检查证据",
+      "branches": {
+        "true": "保留共同进气路径为待核验假设；不确认PCV或涡轮",
+        "false": "分别保留候选原因，不合并根因",
+        "unknown": "核对故障时间、状态和检测记录",
+        "conflict": "记录矛盾证据，共同原因保持未解决"
+      },
+      "source_ids": [
+        "RT_P0299",
+        "RT_P2279"
+      ],
+      "professional_review_status": "pending",
+      "enabled_for_production": false,
+      "root_cause_confirmation_allowed": false,
+      "decision_input_contract": {
+        "field": "D05_condition_assessment",
+        "accepted_values": [
+          true,
+          false,
+          "unknown",
+          "conflict"
+        ],
+        "missing_value_branch": "unknown",
+        "assessor": "工程门禁由确定性代码评估；技术检测条件由有来源的专业记录或审核人员评估",
+        "prohibited": "不得由模型仅按DTC猜测技术条件为true"
+      }
+    },
+    {
+      "id": "D06",
+      "title": "特定增压通报匹配",
+      "origin": "manufacturer_scope_guardrail",
+      "applicability": "该通报适配门禁，不提供执行维修流程",
+      "condition": "市场已确认适用北美通报，年款2008—2015且发动机CCTA或CBFA",
+      "branches": {
+        "true": "提供通报链接，由专业人员核对版本和实际机械检查",
+        "false": "明确不适用此通报，不移植机械阈值或换件要求",
+        "unknown": "要求市场、年款及发动机代码",
+        "conflict": "暂停适配结论，复核发动机识别记录"
+      },
+      "source_ids": [
+        "VW_BOOST_21_10_02"
+      ],
+      "professional_review_status": "pending",
+      "enabled_for_production": false,
+      "root_cause_confirmation_allowed": false,
+      "decision_input_contract": {
+        "field": "D06_condition_assessment",
+        "accepted_values": [
+          true,
+          false,
+          "unknown",
+          "conflict"
+        ],
+        "missing_value_branch": "unknown",
+        "assessor": "工程门禁由确定性代码评估；技术检测条件由有来源的专业记录或审核人员评估",
+        "prohibited": "不得由模型仅按DTC猜测技术条件为true"
+      }
+    },
+    {
+      "id": "G04",
+      "title": "根因确认限制",
+      "origin": "engineering_guardrail",
+      "applicability": "通用信息与证据整理，不是车型维修操作程序",
+      "condition": "具备经审核适配规则、实际检测支持和专业审核记录",
+      "branches": {
+        "true": "本批规则仍仅输出SUPPORTED；另行审核确认流程后才可升级",
+        "false": "保持UNRESOLVED或SUPPORTED，不确认根因",
+        "unknown": "列出缺少的证据",
+        "conflict": "标记CONFLICT，禁止确认"
+      },
+      "source_ids": [],
+      "professional_review_status": "pending",
+      "enabled_for_production": false,
+      "root_cause_confirmation_allowed": false,
+      "decision_input_contract": {
+        "field": "G04_condition_assessment",
+        "accepted_values": [
+          true,
+          false,
+          "unknown",
+          "conflict"
+        ],
+        "missing_value_branch": "unknown",
+        "assessor": "工程门禁由确定性代码评估；技术检测条件由有来源的专业记录或审核人员评估",
+        "prohibited": "不得由模型仅按DTC猜测技术条件为true"
+      }
+    },
+    {
+      "id": "D07",
+      "title": "P0171泄漏证据",
+      "origin": "source_informed_authored_logic",
+      "applicability": "一般信息与专业检测结果整理；不是拆装或维修操作程序",
+      "trigger_dtcs": [
+        "P0171"
+      ],
+      "condition": "适配检查已记录进气泄漏",
+      "branches": {
+        "true": "支持进气泄漏路径，过稀原因仍需综合核验",
+        "false": "核对空气计量及供油检查记录；不能凭未检出断言无泄漏",
+        "unknown": "收集原始报码、车辆配置、适配程序与专业检测记录；保持未解决",
+        "conflict": "并列记录矛盾结果、检测方法和工况，暂停结论"
+      },
+      "source_ids": [
+        "RT_P0171"
+      ],
+      "professional_review_status": "pending",
+      "enabled_for_production": false,
+      "root_cause_confirmation_allowed": false,
+      "decision_input_contract": {
+        "field": "D07_condition_assessment",
+        "accepted_values": [
+          true,
+          false,
+          "unknown",
+          "conflict"
+        ],
+        "missing_value_branch": "unknown",
+        "assessor": "工程门禁由确定性代码评估；技术检测条件由有来源的专业记录或审核人员评估",
+        "prohibited": "不得由模型仅按DTC猜测技术条件为true"
+      }
+    },
+    {
+      "id": "D08",
+      "title": "P0172喷油证据",
+      "origin": "source_informed_authored_logic",
+      "applicability": "一般信息与专业检测结果整理；不是拆装或维修操作程序",
+      "trigger_dtcs": [
+        "P0172"
+      ],
+      "condition": "专业记录明确支持喷油器泄漏",
+      "branches": {
+        "true": "支持喷油异常路径，不确认其为唯一根因",
+        "false": "继续核对燃油供给、蒸发排放及机械因素",
+        "unknown": "收集原始报码、车辆配置、适配程序与专业检测记录；保持未解决",
+        "conflict": "并列记录矛盾结果、检测方法和工况，暂停结论"
+      },
+      "source_ids": [
+        "RT_P0172"
+      ],
+      "professional_review_status": "pending",
+      "enabled_for_production": false,
+      "root_cause_confirmation_allowed": false,
+      "decision_input_contract": {
+        "field": "D08_condition_assessment",
+        "accepted_values": [
+          true,
+          false,
+          "unknown",
+          "conflict"
+        ],
+        "missing_value_branch": "unknown",
+        "assessor": "工程门禁由确定性代码评估；技术检测条件由有来源的专业记录或审核人员评估",
+        "prohibited": "不得由模型仅按DTC猜测技术条件为true"
+      }
+    },
+    {
+      "id": "D09",
+      "title": "P0234控制证据",
+      "origin": "source_informed_authored_logic",
+      "applicability": "一般信息与专业检测结果整理；不是拆装或维修操作程序",
+      "trigger_dtcs": [
+        "P0234"
+      ],
+      "condition": "车型适配的专业记录明确指出增压控制机构异常",
+      "branches": {
+        "true": "支持控制机构异常路径，不直接确认涡轮损坏",
+        "false": "核对压力测量可信度与其他增压检查记录",
+        "unknown": "收集原始报码、车辆配置、适配程序与专业检测记录；保持未解决",
+        "conflict": "并列记录矛盾结果、检测方法和工况，暂停结论"
+      },
+      "source_ids": [
+        "RT_P0234"
+      ],
+      "professional_review_status": "pending",
+      "enabled_for_production": false,
+      "root_cause_confirmation_allowed": false,
+      "decision_input_contract": {
+        "field": "D09_condition_assessment",
+        "accepted_values": [
+          true,
+          false,
+          "unknown",
+          "conflict"
+        ],
+        "missing_value_branch": "unknown",
+        "assessor": "工程门禁由确定性代码评估；技术检测条件由有来源的专业记录或审核人员评估",
+        "prohibited": "不得由模型仅按DTC猜测技术条件为true"
+      }
+    },
+    {
+      "id": "D10",
+      "title": "P0507泄漏证据",
+      "origin": "source_informed_authored_logic",
+      "applicability": "一般信息与专业检测结果整理；不是拆装或维修操作程序",
+      "trigger_dtcs": [
+        "P0507"
+      ],
+      "condition": "适配检查已记录真空泄漏",
+      "branches": {
+        "true": "支持真空泄漏路径，结合转速工况复核关联",
+        "false": "继续核对节气门与线路资料，不自动建议清洗或匹配",
+        "unknown": "收集原始报码、车辆配置、适配程序与专业检测记录；保持未解决",
+        "conflict": "并列记录矛盾结果、检测方法和工况，暂停结论"
+      },
+      "source_ids": [
+        "RT_P0507"
+      ],
+      "professional_review_status": "pending",
+      "enabled_for_production": false,
+      "root_cause_confirmation_allowed": false,
+      "decision_input_contract": {
+        "field": "D10_condition_assessment",
+        "accepted_values": [
+          true,
+          false,
+          "unknown",
+          "conflict"
+        ],
+        "missing_value_branch": "unknown",
+        "assessor": "工程门禁由确定性代码评估；技术检测条件由有来源的专业记录或审核人员评估",
+        "prohibited": "不得由模型仅按DTC猜测技术条件为true"
+      }
+    },
+    {
+      "id": "D11",
+      "title": "P0087供油证据",
+      "origin": "source_informed_authored_logic",
+      "applicability": "一般信息与专业检测结果整理；不是拆装或维修操作程序",
+      "trigger_dtcs": [
+        "P0087"
+      ],
+      "condition": "适配程序下专业记录明确支持低压供给不足",
+      "branches": {
+        "true": "支持供给不足路径，不直接判高压泵损坏",
+        "false": "继续核对压力测量、压力损失和机械驱动资料",
+        "unknown": "收集原始报码、车辆配置、适配程序与专业检测记录；保持未解决",
+        "conflict": "并列记录矛盾结果、检测方法和工况，暂停结论"
+      },
+      "source_ids": [
+        "RT_P0087"
+      ],
+      "professional_review_status": "pending",
+      "enabled_for_production": false,
+      "root_cause_confirmation_allowed": false,
+      "decision_input_contract": {
+        "field": "D11_condition_assessment",
+        "accepted_values": [
+          true,
+          false,
+          "unknown",
+          "conflict"
+        ],
+        "missing_value_branch": "unknown",
+        "assessor": "工程门禁由确定性代码评估；技术检测条件由有来源的专业记录或审核人员评估",
+        "prohibited": "不得由模型仅按DTC猜测技术条件为true"
+      }
+    },
+    {
+      "id": "D12",
+      "title": "P0420泄漏证据",
+      "origin": "source_informed_authored_logic",
+      "applicability": "一般信息与专业检测结果整理；不是拆装或维修操作程序",
+      "trigger_dtcs": [
+        "P0420"
+      ],
+      "condition": "适配程序下专业记录明确支持进排气泄漏",
+      "branches": {
+        "true": "支持泄漏路径，不直接判断催化器损坏",
+        "false": "核对催化系统与氧传感器的适配检查记录",
+        "unknown": "收集原始报码、车辆配置、适配程序与专业检测记录；保持未解决",
+        "conflict": "并列记录矛盾结果、检测方法和工况，暂停结论"
+      },
+      "source_ids": [
+        "RT_P0420"
+      ],
+      "professional_review_status": "pending",
+      "enabled_for_production": false,
+      "root_cause_confirmation_allowed": false,
+      "decision_input_contract": {
+        "field": "D12_condition_assessment",
+        "accepted_values": [
+          true,
+          false,
+          "unknown",
+          "conflict"
+        ],
+        "missing_value_branch": "unknown",
+        "assessor": "工程门禁由确定性代码评估；技术检测条件由有来源的专业记录或审核人员评估",
+        "prohibited": "不得由模型仅按DTC猜测技术条件为true"
+      }
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "CONFLICT_DGUE_DGUA",
+      "source_ids": [
+        "RT_P0172",
+        "RT_P0300",
+        "VW_2054615_1"
+      ],
+      "field": "engine_code",
+      "vendor_note": "DGUE",
+      "manufacturer_applicability": "DGUA",
+      "resolution": "通报适配字段采用原厂PDF第1页DGUA；Ross-Tech备注保留为冲突，不据此扩大到DGUE",
+      "status": "recorded_not_equivalence_resolved"
+    }
+  ]
+}

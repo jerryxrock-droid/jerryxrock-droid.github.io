@@ -32,6 +32,8 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+      - name: Copy standalone VAG diagnostic app
+        run: mkdir -p _site/vag-diag && cp -a vag-diag/. _site/vag-diag/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
