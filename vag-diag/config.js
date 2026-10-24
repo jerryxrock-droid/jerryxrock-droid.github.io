@@ -1,1 +1,1 @@
-window.__VAG_API_BASE__ = "https://8f59bd36ae4802.lhr.life"; window.__VAG_STATIC__ = true;
+window.__VAG_API_BASE__ = "https://1b0ca5089b455a.lhr.life"; window.__VAG_STATIC__ = true;
