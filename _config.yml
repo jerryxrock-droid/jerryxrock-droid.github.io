@@ -1,52 +1,41 @@
-# =============================================================================
 # Jerry Xie · Personal Site
-# Stack: Jekyll + Minimal Mistakes (gem-based, hosted on GitHub Pages)
-# =============================================================================
+# Jekyll + Minimal Mistakes · GitHub Pages
 
-# Site Identity
 title: Jerry Xie
 title_separator: "—"
-subtitle: Automotive Product Manager · 10 Years · Pivoting to AI
+subtitle: Automotive Systems Engineering · Requirements · OTA Feature Delivery
 description: >
-  10-year automotive Product Manager (Cariad · SAIC VW · Ford China)
-  pivoting to AI. Unique edge: car + data + AI + cross-functional ownership.
+  Jerry Xie is an automotive systems and connected-vehicle professional with
+  over 10 years of experience across PATAC, SAIC Volkswagen, Ford China and CARIAD China.
+  Focus areas include system requirements, functional specifications, integration,
+  validation, OTA feature delivery and vehicle-cloud data.
 url: https://jerryxrock-droid.github.io
 baseurl: ""
 repository: jerryxrock-droid/jerryxrock-droid.github.io
 
-# Theme (gem name must match .gemspec spec.name)
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: dark
 
-# Author
 author:
   name: Jerry Xie
-  bio: "AI Product Manager in training · 10yr automotive PM"
+  bio: "Automotive Systems · Requirements · Feature Delivery & Validation"
   location: Shanghai, China
-  email: jerryxrock@gmail.com
+  email: 403197815@qq.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:jerryxrock@gmail.com"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/jerryxie"
+      url: "mailto:403197815@qq.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jerryxrock-droid"
 
-# Locale
-# Default: Chinese (zh-CN). English version at /en/ subdirectory.
 locale: "zh-CN"
 lang: zh-CN
-
-# Plugins
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
 
-# Collections
 collections:
   projects:
     output: true
@@ -62,7 +51,6 @@ defaults:
       share: true
       comments: false
 
-# Markdown
 markdown: kramdown
 highlighter: rouge
 kramdown:

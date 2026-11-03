@@ -5,44 +5,19 @@ permalink: /en/contact/
 author_profile: false
 ---
 
-## 👤 Personal
+## Contact
 
-- **Name**: Jerry Xie (谢捷)
-- **Email**: 403197815@qq.com
-- **GitHub**: [github.com/jerryxrock-droid](https://github.com/jerryxrock-droid)
-- **LinkedIn**: <!-- TODO: Awaiting Jerry's LinkedIn URL -->
+- **Name:** Jie Xie (Jerry Xie)
+- **Location:** Shanghai, China
+- **Email:** [403197815@qq.com](mailto:403197815@qq.com)
+- **GitHub:** [github.com/jerryxrock-droid](https://github.com/jerryxrock-droid)
 
----
+## Career Interests
 
-## 🎯 Job Search Intent
+Automotive systems engineering, system requirements and specifications, requirements management, OTA-related feature delivery and validation, connected-vehicle Function Owner roles, vehicle-cloud data and AI application products.
 
-| Item | Details |
-|------|---------|
-| **Target Role** | AI Product Manager |
-| **Preferred Paths** | 🚗 T2.5 OEM AI divisions (NIO/XPeng/Li Auto/Huawei Car BU) > 🌐 T1 tech AI products > 🤖 RAG/Agent startups |
-| **Location** | Shanghai / Hangzhou / Beijing / Remote (open) |
-| **Start Date** | Flexible, negotiable |
-| **Salary Range** | <!-- TODO: Awaiting Jerry's input --> |
+**Relevant background:** CARIAD China (Data Collection FO), Ford China (VPA voice features and OTA coordination), SAIC Volkswagen (remote control functions) and PATAC (in-vehicle communication networks).
 
----
+I welcome conversations about technical scope, team collaboration, role expectations and opportunities.
 
-## 💼 Core Competencies (One-liner)
-
-> **10+ years Automotive PM. Car + Data + AI + cross-functional FO.**
-> Million-vehicle platform product owner. PMP / CET-6 / JLPT-N2 certified.
-
----
-
-## 💡 Communication Style
-
-I prefer **direct, efficient, no-BS** communication. Suggestions:
-
-1. **First email** should include: your company, role, why you're considering me, interview process
-2. **Avoid**: "We have a great opportunity..." template speak
-3. **Critical discussions → email** (for the record), not just IM
-
----
-
-<div style="text-align: center; margin-top: 3rem; padding: 1rem; border-top: 1px solid #333;">
-  <a href="/contact/" style="color: #D4A843; text-decoration: none;">← 中文版</a>
-</div>
+[About](/en/about/) · [Projects](/en/projects/) · [中文版](/contact/)

@@ -5,93 +5,62 @@ permalink: /en/about/
 author_profile: true
 ---
 
-## One-liner
+## Profile
 
-> **10+ years Automotive Product Manager. Car + Data + AI + cross-functional FO.**
-> Stacking this rare profile onto AI products. Target: AI PM.
+> **Automotive Systems Engineering | Requirements & Specifications | Connected-Vehicle Feature Delivery & Validation**
 
----
+I have over 10 years of experience in automotive electronics and connected-vehicle products, spanning in-vehicle communication networks, remote vehicle control, cockpit voice features and vehicle-side data collection. My work includes functional requirements, specifications, interface coordination, system integration, testing and issue resolution across engineering teams, suppliers and stakeholders.
 
-## Why Me
+At Ford China, I contributed to **feature-level OTA update requirements, software release coordination and post-update functional validation** for the in-vehicle voice assistant. My scope was voice-feature delivery, not ownership of the underlying vehicle OTA platform or architecture.
 
-I have 10+ years across the **automotive connectivity stack** — from car software / connectivity → remote vehicle control → in-car voice → cloud-side data collection. Full product lifecycle ownership.
+## Experience
 
-I have worked at **PATAC (泛亚), SAIC VW, Ford (China), Cariad (VW Group)** and other mainstream OEMs and tech companies, leading product delivery of vehicle control, voice, and data collection on **million-vehicle platforms**. End-to-end capability: requirements analysis, feature definition, cross-team coordination, acceptance testing. Familiar with vehicle-grade regulatory standards and data compliance.
+### CARIAD China | Data Collection Function Owner
+**Jul 2023 – Jul 2026 | Shanghai**
 
-**2026 H1 I started the AI pivot.** My strategy: **don't abandon 10 years of PM experience to learn AI from scratch — instead stack car + data + FO (the three scarce dimensions) onto AI, and become the "AI PM who understands cars" — the rarest profile in the market**.
+- Coordinated development of vehicle-side data collection features, including vehicle status, driving behavior and diagnostic trouble codes; clarified requirements, defined collection specifications and quality criteria, and supported end-to-end testing.
+- Worked with R&D, testing, aftersales, dealerships and business stakeholders across vehicle collection, transmission and cloud ingestion; tracked latency, packet loss and completeness issues.
+- Used Kafka consumer backlog and processing-rate indicators to help identify abnormal data processing behavior and coordinate investigations with engineering teams.
+- Used Jira, KPM and Confluence for requirement status and relationship maintenance and issue tracking; supported data dashboards and privacy-related access requirements.
 
----
+### Ford China | Voice Assistant Feature Product Manager
+**Sep 2021 – Jul 2023 | Shanghai**
 
-## Timeline
+- Defined requirements and maintained Specs / PRDs for the VPA voice assistant and user-feedback features; collaborated with HMI, R&D and voice suppliers on interface alignment, integration and acceptance.
+- **OTA requirements & release coordination:** Contributed to voice-feature OTA update requirements and coordinated software version releases with development, testing teams and vendors, tracking feature changes and compatibility issues.
+- **Post-update validation:** Participated in voice-function testing, defect tracking and regression verification after OTA updates, focusing on functional correctness, compatibility and stability.
+- Supported Agile practices and voice-assistant integration with recommendation services.
 
-### 🚗 Cariad (VW Group) · Data Collection Product Manager / Data Collection FO
-**2023.07 – Present · Shanghai**
+### SAIC Volkswagen | Remote Control Function Owner
+**Jan 2018 – Sep 2021 | Shanghai**
 
-End-to-end ownership of vehicle-side data collection products (vehicle status / driving behavior / DTCs etc.) on **million-vehicle platforms**.
+- Coordinated development of remote controls, vehicle status queries and real-time monitoring, from requirements and interface adaptation through system integration and acceptance testing.
+- Led localized functions such as car finder, geofencing, overspeed alerts and trip statistics across in-vehicle and mobile services, including feasibility analysis and end-to-end validation.
+- Supported eCall / bCall integration and verification, RFQ / BRD preparation, real-vehicle crash testing and AECS / CNCAP / CCRT-related standards tracking.
 
-Key outcomes:
-- Coordinated across vehicle-side / cloud-side / privacy / legal teams
-- **LLM-based auto insurance solution optimization** (most AI-heavy project during Cariad phase)
-- Data compliance, cross-border data transfer, user privacy protection
+### PATAC | Network Communication Engineer
+**Aug 2014 – Nov 2016 | Shanghai**
 
-### 🎙️ Ford (China) · Voice Product Manager / VPA Feature PM
-**2021.09 – 2023.07 · Shanghai**
+- Built CAN databases and participated in bus-load analysis, in-vehicle network topology, gateway routing, network management and diagnostic strategy development.
+- Managed engineering release documentation and access permissions through SVN.
 
-Responsible for VPA voice assistant feature development. Coordinated with HMI and internal engineering teams on requirements, managed project budget, and organized technical documentation.
+## Capabilities
 
-### 🚗 SAIC VW · Vehicle Control Feature PM · MQB / MEB Platform
-**2018.01 – 2021.09 · Shanghai**
+| Area | Experience |
+|---|---|
+| Requirements & specifications | Requirements analysis, Spec / PRD, Jira / Confluence status and relationship maintenance |
+| Integration & validation | Interface alignment, system integration, E2E testing and issue tracking |
+| OTA feature delivery | Voice-feature OTA requirements, release coordination and post-update validation at Ford |
+| Automotive technology | CAN / LIN, diagnostic fundamentals, MQTT, Azure IoT, Kafka |
+| Tools | CANoe, Serial2, ODIS, Jira, KPM, Confluence, SVN; Python, SQL, Excel |
 
-<!-- TODO: Specific company name to be confirmed by Jerry -->
+## Education & Certifications
 
-Vehicle control core features FO on MQB / MEB platforms: remote vehicle control, status query, real-time data monitoring, personalization.
+- **Shanghai University**, School of Communication & Information Engineering | Sep 2010 – Jul 2014
+- **PMP** (2019) | **CET-6** (519) | **JLPT N2**
 
-Key outcomes:
-- **Localized in-house R&D**: car finder, geofencing, overspeed alert, trip statistics
-- **eCall / bCall emergency rescue service** integration verification
-- Led alignment with **AEBS / CNCAP / CCRT** regulatory standards
-- Real-vehicle crash testing + standards review
+## Areas of Interest
 
-### 🏢 PATAC (泛亚汽车技术中心) · Communication Network Engineer
-**2014.08 – 2016.11 · Shanghai**
+Automotive systems engineering, system requirements and specifications, requirements management, connected-vehicle feature delivery, OTA-related validation, vehicle-cloud data and AI applications.
 
-> First entry into the industry, starting from the bottom layer of in-vehicle network communication.
-
-Key outcomes:
-- Built the **CAN database** from 0 to 1
-- Bus load evaluation strategy + in-vehicle network topology optimization
-- Network management (local wakeup), diagnostic maintenance, low-level network security
-
----
-
-## Capability Quadrants
-
-|  | Skill | Source |
-|---|-------|--------|
-| 🟢 **Car** | 10+ years connected car / vehicle control / voice / data collection | Full chain: PATAC → Vehicle Control FO → Ford VPA → Cariad |
-| 🟡 **Data** | Data collection FO, instrumentation / metrics / data-driven iteration | Cariad data collection project (million-vehicle platform) |
-| 🔵 **AI (in progress)** | Hands-on RAG / agent projects | [Xuanjing / 玄靖](https://github.com/jerryxrock-droid/Xuanjing) open-source project |
-| 🔴 **FO** | Cross OEM / Tier-1 / engineering / data compliance | Ship experience in complex OEM organizations |
-| 🟣 **Regulations** | AEBS / CNCAP / CCRT vehicle-grade standards | Led regulatory alignment during vehicle control FO phase |
-| ⚫ **Languages** | PMP · CET-6 · JLPT-N2 | Cross-language working ability |
-
----
-
-## Certifications & Languages
-
-- **PMP** (Project Management Professional)
-- **CET-6** (College English Test Band 6)
-- **JLPT N2** (Japanese Language Proficiency Test, N2)
-- Mandarin (native), English (fluent, business working), Japanese (conversational)
-
----
-
-## Education
-
-**Shanghai University** · Communication Engineering · 2010 – 2014
-
----
-
-<div style="text-align: center; margin-top: 3rem; padding: 1rem; border-top: 1px solid #333;">
-  <a href="/about/" style="color: #D4A843; text-decoration: none;">← 中文版</a>
-</div>
+[Projects](/en/projects/) · [Contact](/en/contact/) · [中文版](/about/)

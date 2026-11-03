@@ -5,44 +5,19 @@ permalink: /contact/
 author_profile: false
 ---
 
-## 👤 个人信息
+## 联系方式
 
-- **姓名**：谢捷 · Jie Xie
-- **邮箱**：403197815@qq.com
+- **姓名**：谢捷 / Jie Xie
+- **地点**：上海
+- **邮箱**：[403197815@qq.com](mailto:403197815@qq.com)
 - **GitHub**：[github.com/jerryxrock-droid](https://github.com/jerryxrock-droid)
-- **LinkedIn**：<!-- TODO: 待 Jerry 提供 LinkedIn URL -->
 
----
+## 职业方向
 
-## 🎯 求职意向
+关注汽车系统工程、系统需求与规范、需求管理、OTA 相关功能交付与测试验证、智能网联 Function Owner、车云数据及 AI 应用产品等方向。
 
-| 项 | 详情 |
-|---|------|
-| **目标岗位** | AI Product Manager |
-| **期望方向** | 🚗 T2.5 车厂 AI 部门 > 🌐 T1 大厂 AI 产品 > 🤖 RAG/Agent 创业 |
-| **工作地点** | 上海 / 杭州 / 北京 / 远程（open） |
-| **期望到岗** | 灵活，可面议 |
-| **薪资范围** | <!-- TODO: 待 Jerry 定 --> |
+**相关经历**：CARIAD China（车端数据采集 FO）、福特中国（VPA 语音功能与 OTA 协同）、上汽大众（远程车控）、泛亚（车载通信网络）。
 
----
+**可讨论内容**：工作职责、技术方向、跨团队协作方式、工作地点及入职安排。
 
-## 💼 我的核心能力（一句话版）
-
-> **10+ 年汽车智能网联 PM，懂车 + 懂数据 + 懂 AI + 跨部门 FO。**
-> 百万级车型平台产品 owner 经验，PMP / CET-6 / JLPT-N2 持证。
-
----
-
-## 💡 直接沟通建议
-
-我偏好**直接、高效、不套话**的沟通方式。建议：
-
-1. **第一封邮件**写清：你在哪家公司、什么岗位、为什么考虑我、面试流程
-2. **避免**："我们有一个很好的机会..."这种话术
-3. **关键讨论请走邮件**（留痕），不要纯 IM
-
----
-
-<div style="text-align: center; margin-top: 3rem; padding: 1rem; border-top: 1px solid #333;">
-  <a href="/en/contact/" style="color: #D4A843; text-decoration: none;">English Version →</a>
-</div>
+[关于我](/about/) · [项目经验](/projects/) · [English Version](/en/contact/)

@@ -5,99 +5,49 @@ permalink: /en/projects/
 author_profile: false
 ---
 
-A selection of project cases. Two categories: **AI / technical hands-on** (open source on GitHub), and **automotive connectivity PM experience** (company projects on million-vehicle platforms).
+Selected examples of my automotive feature-delivery experience and public software projects. Corporate case descriptions are limited to non-confidential responsibilities.
 
-## 🤖 AI / Technical Hands-on Projects
+## Automotive Systems & Feature Delivery
 
-### [Xuanjing (玄靖)](https://github.com/jerryxrock-droid/Xuanjing)
-**RAG / AI Agent hands-on · 2026**
+### CARIAD China | Vehicle-Side Data Collection FO
+**Jul 2023 – Jul 2026**
 
-Hands-on project in RAG / agent direction.
-- **GitHub**: [jerryxrock-droid/Xuanjing](https://github.com/jerryxrock-droid/Xuanjing)
-- **My role**: Product + hands-on
+[Project details (Chinese)](/projects/cariad-data-collection/)
 
----
+- Clarified requirements and maintained specifications for vehicle status, driving behavior and diagnostic trouble-code data collection; coordinated implementation and E2E testing.
+- Worked across vehicle collection, transmission and cloud ingestion to follow up on latency, packet loss and completeness issues.
+- Used Kafka indicators to identify anomalies and coordinated investigation and issue closure.
 
-### [FitEat — Ingredient Calorie Lookup & Smart Recommendation App](https://github.com/jerryxrock-droid/FitEat_J)
-**Mobile App · 2025**
+### Ford China | Voice Assistant & OTA Feature Delivery
+**Sep 2021 – Jul 2023**
 
-Ingredient calorie lookup and smart recommendation app. Recommends cookable dishes from fridge ingredients, with fuzzy search, calorie calculation, and cuisine classification.
-- **GitHub**: [jerryxrock-droid/FitEat_J](https://github.com/jerryxrock-droid/FitEat_J)
-- **My role**: Product + development
+- Maintained voice-feature Specs / PRDs and collaborated with HMI, R&D, testing and suppliers on integration.
+- **Participated in OTA update requirement definition, release coordination and post-update functional and regression validation for voice assistant features.**
+- Tracked functional changes, compatibility issues and defects across releases.
 
----
+### SAIC Volkswagen | Remote Control & Assistance Services
+**Jan 2018 – Sep 2021**
+
+- Supported requirements, interface alignment, integration and validation for remote vehicle control, status queries, car finder, geofencing, speed alerts and trip statistics.
+- Participated in eCall / bCall integration and real-vehicle crash testing.
+
+### PATAC | In-Vehicle Communication Networks
+**Aug 2014 – Nov 2016**
+
+- Built CAN databases; participated in bus-load assessment, network topology, gateway routing and diagnostic strategy work.
+- Maintained engineering release records via SVN.
+
+## Public Software & AI-Related Projects
 
 ### [Daily Stock Analysis](https://github.com/jerryxrock-droid/daily_stock_analysis)
-**LLM-driven A/H/US Stock Intelligent Analyzer**
+Exploration of market-data aggregation, news processing and automated outputs using large language models.
 
-LLM-powered stock analysis system for A/H/US markets.
-Multi-source quotes + real-time news + LLM decision dashboard + multi-channel push, runs on schedule at zero cost.
-- **GitHub**: [jerryxrock-droid/daily_stock_analysis](https://github.com/jerryxrock-droid/daily_stock_analysis)
-- **My role**: Product + hands-on
+### [FitEat](https://github.com/jerryxrock-droid/FitEat_J)
+Ingredient calorie lookup and meal recommendation app, including fuzzy search, calorie calculations and cuisine categorization.
 
----
+### [Xuanjing](https://github.com/jerryxrock-droid/Xuanjing)
+Independent iOS app exploration with SwiftUI, UI design and deterministic logic. **Not a RAG or AI agent project.**
 
-## 🚗 Automotive Connectivity PM Experience
+I also explore automotive diagnostics RAG, AI agents and local AI workflows. These are personal technical explorations, not claimed as production automotive deployments.
 
-### Cariad · Data Collection Product Manager / Data Collection FO
-**2023.07 – Present · Shanghai**
-
-[Detailed project →](/projects/cariad-data-collection/)
-
-End-to-end owner of vehicle-side data collection product (vehicle status / driving behavior / DTCs etc.) on **million-vehicle platforms**.
-
-**Key capability demonstrated:**
-- Cross-functional coordination across OEM / Tier-1 / engineering / data compliance / after-sales teams
-- **LLM-based auto insurance solution optimization** (most AI-heavy project during Cariad phase)
-- Data compliance, cross-border data transfer, user privacy protection
-
----
-
-### Ford (China) · VPA Voice Product Manager
-**2021.09 – 2023.07 · Shanghai**
-
-VPA voice assistant feature PM. Coordinated with HMI and internal engineering teams.
-
-**Key capability demonstrated:**
-- **Agile pilot project**: transformation practice from traditional waterfall to agile
-- Drove voice assistant integration with the recommendation engine, enabling rapid software iteration
-- User feedback collection and mini-program product development
-
----
-
-### Vehicle Control Feature PM · MQB / MEB Platform
-**2018.01 – 2021.09 · Shanghai** <!-- TODO: Awaiting Jerry's input on the specific company name -->
-
-Vehicle control core features FO on MQB / MEB platforms: remote vehicle control, status query, real-time data monitoring, personalization.
-
-**Key capability demonstrated:**
-- **Localized in-house R&D**: car finder, geofencing, overspeed alert, trip statistics
-- **eCall / bCall emergency rescue service** integration verification
-- Led alignment with **AEBS / CNCAP / CCRT** regulatory standards
-- Real-vehicle crash testing + standards review
-
----
-
-### PATAC (泛亚汽车技术中心) · Communication Network Engineer
-**2014.08 – 2016.11 · Shanghai**
-
-> First entry into the industry, starting from the bottom layer of in-vehicle network communication.
-
-**Key capability demonstrated:**
-- Built the **CAN database** from 0 to 1
-- Bus load evaluation strategy + in-vehicle network topology optimization
-- Network management (local wakeup), diagnostic maintenance, low-level network security
-
----
-
-## 💼 Job Search Status
-
-> **Currently seeking AI PM roles**: target T2.5 OEM AI divisions + T1 tech AI products.
-> Focus areas: smart cockpit + AI, RAG / Agent, data + AI.
-> [Contact](/contact/)
-
----
-
-<div style="text-align: center; margin-top: 3rem; padding: 1rem; border-top: 1px solid #333;">
-  <a href="/projects/" style="color: #D4A843; text-decoration: none;">← 中文版</a>
-</div>
+[About](/en/about/) · [Contact](/en/contact/) · [中文版](/projects/)

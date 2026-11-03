@@ -5,104 +5,49 @@ permalink: /projects/
 author_profile: true
 ---
 
-精选项目案例。一类是 **AI/技术实战**（GitHub 开源），一类是 **车联网 PM 经验**（公司项目，百万级车型平台）。
+这里展示我参与的汽车功能交付项目，以及个人公开的软件与 AI 相关实践。汽车项目内容为可公开描述的工作范围，不包含企业内部机密。
 
-## 🤖 AI / 技术实战项目
+## 汽车系统与功能交付
+
+### CARIAD China｜车端数据采集 / Data Collection FO
+**2023.07 – 2026.07**
+
+[查看项目详情](/projects/cariad-data-collection/)
+
+- 负责车辆状态、驾驶行为、故障码等数据采集需求分析与规范维护，协调研发适配及端到端测试。
+- 跨车端采集、数据传输、云端入库流程对接研发与测试团队，跟踪延迟、丢包、完整性等问题。
+- 通过 Kafka 相关运行指标识别异常，推动定位和问题闭环；参与需求状态及关联关系维护。
+
+### 福特（中国）｜VPA 语音助手与 OTA 功能交付
+**2021.09 – 2023.07**
+
+- 编写维护语音助手功能 Spec / PRD，协调 HMI、研发、测试和语音供应商开展功能集成。
+- **参与语音功能 OTA 升级需求定义、软件版本发布协调和升级后功能测试与回归验证。**
+- 协调功能变更、版本适配、缺陷跟踪及用户反馈闭环。
+
+### 上汽大众｜远程车控与救援服务
+**2018.01 – 2021.09**
+
+- 推进远程车控、车辆状态、寻车、电子围栏、超速报警与行程统计等功能的需求、接口适配与测试验收。
+- 参与 eCall / bCall 集成验证、实车碰撞测试及相关标准跟踪。
+
+### 泛亚汽车技术中心｜车载通信网络
+**2014.08 – 2016.11**
+
+- 搭建 CAN 数据库，参与总线负载评估、网络拓扑、网关路由与诊断策略相关工作。
+- 通过 SVN 维护跨项目工程发布资料。
+
+## 个人软件与 AI 相关实践
 
 ### [Daily Stock Analysis](https://github.com/jerryxrock-droid/daily_stock_analysis)
-**LLM 驱动的 A/H/美股智能分析器**
+基于市场数据和大语言模型的股票信息分析项目，探索数据聚合、新闻信息处理与自动化输出。
 
-LLM-powered stock analysis system for A/H/US markets.
-多数据源行情 + 实时新闻 + LLM 决策仪表盘 + 多渠道推送，零成本定时运行。
-- **GitHub**：[jerryxrock-droid/daily_stock_analysis](https://github.com/jerryxrock-droid/daily_stock_analysis)
-- **我的角色**：产品 + 实战
+### [FitEat](https://github.com/jerryxrock-droid/FitEat_J)
+食材热量查询与菜品推荐 App，涵盖食材搜索、热量计算及菜系分类。
 
----
+### [Xuanjing](https://github.com/jerryxrock-droid/Xuanjing)
+独立 iOS 应用实践，探索 SwiftUI、应用交互和确定性逻辑；**不是 RAG / Agent 项目**。
 
-### [FitEat - 食材热量查询与智能推荐 App](https://github.com/jerryxrock-droid/FitEat_J)
-**移动 App · 2025**
+此外持续研究汽车故障诊断 RAG、AI Agent 和本地 AI 工具工作流，相关探索不等同于已量产的企业项目。
 
-食材热量查询与智能推荐 App。冰箱食材推荐可做菜品，支持模糊搜索、热量计算、菜系分类。
-- **GitHub**：[jerryxrock-droid/FitEat_J](https://github.com/jerryxrock-droid/FitEat_J)
-- **我的角色**：产品 + 开发
-
----
-
-## 📱 iOS 独立开发（求职能力补充）
-
-### [明镜 / Xuanjing](https://github.com/jerryxrock-droid/Xuanjing)
-**iOS 独立开发 · 2024**
-
-玄学自我探索 App：星座 + MBTI + 塔罗，SwiftUI + MVVM + UserDefaults。
-- **GitHub**: [jerryxrock-droid/Xuanjing](https://github.com/jerryxrock-droid/Xuanjing)
-- **我的角色**: 产品 + 全栈开发
-- **技术亮点**: 确定性种子算法（LCG + 哈希），保证同一用户每天看到的内容一致
-- **不是 AI/RAG 项目**：是 iOS 玄学 App，跟 AI PM 转型无直接关联，仅作 PM 跨技术栈的探索案例
-
----
-
-## 🚗 车联网 PM 经验项目
-
-### Cariad · 数据采集产品经理 / Data Collection FO
-**2023.07 – 至今 · 上海**
-
-[详细项目 →](/projects/cariad-data-collection/)
-
-**百万级车型平台**的车端数据采集产品（车辆状态 / 驾驶行为 / 故障码等）端到端 owner。
-
-**关键能力体现**：
-- 跨 OEM / Tier-1 / 研发 / 数据合规 / 售后 团队协调
-- 数据合规、跨境传输、用户隐私保护
-<!-- TODO: "基于大模型优化车险方案" 待 Jerry 简历确认是否保留 -->
-
----
-
-### 福特（中国）· VPA 语音产品经理
-**2021.09 – 2023.07 · 上海**
-
-VPA 语音助手功能 PM，对接 HMI 与内部研发团队。
-
-**关键能力体现**：
-- **Agile 敏捷开发项目试行**：从传统瀑布到敏捷的转型实践
-- 推动语音助手迭代节奏优化
-- 用户意见反馈闭环
-<!-- TODO: "小程序产品开发" / "对接推荐引擎" 待 Jerry 简历确认是否保留 -->
-
----
-
-### 车控功能产品经理 · MQB / MEB 平台
-**2018.01 – 2021.09 · 上海**（上汽大众，待最终确认）
-
-MQB / MEB 平台车控核心功能 FO：远程车控、状态查询、实时数据监控、个性化设置。
-
-**关键能力体现**：
-- **本地化自主研发**：寻车、地理围栏、超速报警、行程统计
-- **eCall / bCall 紧急救援服务**集成验证
-- 主导 **AEBS / CNCAP / CCRT** 等法规标准对齐
-- 实车碰撞测试 + 标准审查
-
----
-
-### 泛亚汽车技术中心 · 通信网络工程师
-**2014.08 – 2016.11 · 上海**
-
-> 第一次入行，从底层车载网络通信起步。
-
-**关键能力体现**：
-- 从 0 到 1 搭建 **CAN 数据库**
-- 总线负载评估策略 + 车载网络拓扑优化
-- 网络管理（局域唤醒）、诊断维护、底层网络安全
-
----
-
-## 💼 求职相关
-
-> **AI PM 求职中**：目标 T2.5 车厂 AI 部门 + T1 大厂 AI 产品。  
-> 重点关注：智能座舱 + AI、RAG / Agent、数据 + AI。  
-> [联系方式](/contact/)
-
----
-
-<div style="text-align: center; margin-top: 3rem; padding: 1rem; border-top: 1px solid #333;">
-  <a href="/en/projects/" style="color: #D4A843; text-decoration: none;">English Version →</a>
-</div>
+[了解更多背景](/about/) · [联系我](/contact/) · [English Version](/en/projects/)
